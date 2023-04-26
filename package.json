@@ -16,7 +16,15 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "prepare": "husky install"
+  },
   "peerDependencies": {
     "prettier": ">= 2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@hdnet/commitlint-config": "^0.1.1",
+    "husky": "^8.0.3"
   }
 }

@@ -20,3 +20,8 @@ module.exports = {
     ...require("@hdnet/prettier-config"),
 }
 ```
+
+## Contribute
+
+To setup current node version, you can use [nvm](https://github.com/nvm-sh/nvm)
+(in this project a [.nvmrc](./.nvmrc) file is maintained).
