@@ -1,0 +1,22 @@
+# HDNET prettier-config
+
+This packages defines the strict implementation of the HDNET Code Formatting Guidelines
+from the HDNET Standard Recommendations
+([HSR-15](https://wiki.hdnet.de/display/OPS/HSR-15%3A+Code-Formatierung)) as npm package
+using [prettier](https://prettier.io)
+through a [shareable config](https://prettier.io/docs/en/configuration.html#sharing-configurations).
+
+
+## Getting started
+
+1. Install dependencies
+```bash
+$ npm i -D prettier github:HDNET/prettier-config
+```
+
+2. Create your prettier config file (i.e. `prettier.config.js`) and extend from @hdnet/prettier-config:
+```javascript
+module.exports = {
+    ...require("@hdnet/prettier-config"),
+}
+```

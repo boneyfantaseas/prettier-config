@@ -1,0 +1,22 @@
+{
+  "name": "@hdnet/prettier-config",
+  "version": "0.1.0",
+  "description": "HDNET prettier-config, implementing HSR-15",
+  "author": "HDNET",
+  "keywords": [
+    "prettier",
+    "hdnet",
+    "HSR"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HDNET/prettier-config.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "prettier": ">= 2"
+  }
+}
