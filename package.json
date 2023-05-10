@@ -1,6 +1,6 @@
 {
   "name": "@hdnet/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HDNET prettier-config, implementing HSR-15",
   "author": "HDNET",
   "keywords": [
@@ -17,7 +17,7 @@
     "index.js"
   ],
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\""
   },
   "peerDependencies": {
     "prettier": ">= 2"
